@@ -1,0 +1,17 @@
+name: Documentation feedback
+description: Report missing, unclear, or incorrect documentation.
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      description: Share a link, file path, or topic you looked for.
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What needs to change?
+      description: Explain what is missing, unclear, or incorrect.
+    validations:
+      required: true
